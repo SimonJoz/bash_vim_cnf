@@ -1,0 +1,13 @@
+# Default Homebrew MySQL server config
+
+[mysqld]
+
+# Only allow connections from localhost
+default-time-zone='+2:00'
+
+bind-address = 127.0.0.1
+
+mysqlx-bind-address = 127.0.0.1
+
+[client]
+socket=/tmp/mysql.sock
